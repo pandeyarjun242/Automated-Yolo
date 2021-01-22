@@ -85,7 +85,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][images/sample.png]](https://automatedyolo.ml)
+![Product Name Screen Shot][(https://github.com/pandeyarjun242/automatedyolo/images/sample.png)
 
 
 
