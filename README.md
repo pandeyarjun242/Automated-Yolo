@@ -7,7 +7,7 @@
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** pandeyarjun242, automatedyolo_name, twitter_handle, email, project_title, project_description
+*** pandeyarjun242, automatedyolo, twitter_handle, email, project_title, project_description
 -->
 
 
@@ -32,23 +32,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/pandeyarjun242/automatedyolo_name">
+  <a href="https://github.com/pandeyarjun242/automatedyolo">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">AutomatedYolo</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/pandeyarjun242/automatedyolo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/pandeyarjun242/automatedyolo"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/pandeyarjun242/automatedyolo_name">View Demo</a>
+    <a href="https://github.com/pandeyarjun242/automatedyolo">View Web</a>
     ·
-    <a href="https://github.com/pandeyarjun242/automatedyolo_name/issues">automatedyolort Bug</a>
+    <a href="https://github.com/pandeyarjun242/automatedyolo/issues">Report Bug</a>
     ·
-    <a href="https://github.com/pandeyarjun242/automatedyolo_name/issues">Request Feature</a>
+    <a href="https://github.com/pandeyarjun242/automatedyolo/issues">Request Feature</a>
   </p>
 </p>
 
@@ -130,10 +130,17 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The process to start AutomatedYolo is fairly simple.
 
-_For more examples, please refer to the [Video Samples](https://example.com)_
-
+1. Change into repository
+```sh
+cd path/to/repository
+```
+2. Run Streamlit file
+```sh
+streamlit run final.py
+```
+_For more examples, please refer to the [Video Samples](https://example.com)_. The input fields should make it fairly easy about how to go about the project.
 
 
 <!-- ROADMAP -->
@@ -168,7 +175,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [Instagram Handle](https://instagram.com/arjunpandey._) - pandeyarjun.242@gmail.com
 
-Project Link: [https://github.com/pandeyarjun242/automatedyolo_name](https://github.com/pandeyarjun242/automatedyolo)
+Project Link: [https://github.com/pandeyarjun242/automatedyolo](https://github.com/pandeyarjun242/automatedyolo)
 
 
 
@@ -196,4 +203,4 @@ Project Link: [https://github.com/pandeyarjun242/automatedyolo_name](https://git
 [license-shield]: https://img.shields.io/github/license/pandeyarjun242/automatedyolo.svg?style=for-the-badge
 [license-url]: https://github.com/pandeyarjun242/automatedyolo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/pandeyarjun242
+[linkedin-url]: https://www.linkedin.com/in/arjun-pandey-b0734a195/
