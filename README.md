@@ -84,6 +84,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<img src="images/sample.png" alt="Logo" width="300" height="200">
+
 
 ![Product Name Screen Shot](https://github.com/pandeyarjun242/automatedyolo/tree/main/images/sample.png)
 
