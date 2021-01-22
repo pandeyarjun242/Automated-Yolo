@@ -84,10 +84,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<img src="images/sample1.png" alt="Logo">
+<br>
 <img src="images/sample.png" alt="Logo">
 
 
-![Product Name Screen Shot](https://github.com/pandeyarjun242/automatedyolo/tree/main/images/sample.png)
 
 
 
