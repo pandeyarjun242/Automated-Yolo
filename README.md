@@ -85,11 +85,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][images/sample.png]](https://automatedyolo.ml)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`pandeyarjun242`, `automatedyolo`, `arjunpandey._`, `pandeyarjun.242@gmail.com`, `AutomatedYolo`, `Automating object detection. Making AI easier :)`
 
 
 ### Built With
