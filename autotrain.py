@@ -38,6 +38,7 @@ class Yolov3Train:
 			self.workingd = self.workingd[:-1]
 		else:
 			pass
+
 		os.chdir(self.workingd)
 		git.Repo.clone_from('https://github.com/pjreddie/darknet', 'darknet')
 		yield('Github Cloned')
@@ -53,7 +54,7 @@ class Yolov3Train:
 		f.close()
 		print('Custom.names files created')
 		yield('Custom.names file created')
-		split(self.workingd+'/darknet/data/'+os.path.basename(self.images)+'/',self.workingd)
+		split(self.workingd+'/darknet/data/'+os.path.basename(self.images),self.workingd)
 		print('Train and Test split done and registered')
 		yield('Train and Test split done and registered')
 		os.chdir(self.workingd+"/darknet/data/")
@@ -84,6 +85,13 @@ class Yolov3Train:
 		f.close()
 		print('All Set to Train')
 		yield('All Set to Train')
+		source_dir = self.workingd+"/"+"darknet/data/"+os.path.basename(self.labels)
+		target_dir = self.workingd+"/"+"darknet/data/"+os.path.basename(self.images)
+		    
+		file_names = os.listdir(source_dir)
+		    
+		for file_name in file_names:
+		    shutil.move(os.path.join(source_dir, file_name), target_dir)
 		os.chdir(self.workingd+"/darknet/")
 		os.system('make')
 		print('Directory made...Downloading Pretrained weights')
